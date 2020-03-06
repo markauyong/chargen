@@ -134,7 +134,7 @@ class CharacterForm(Frame):
         self.f_skill = LabelFrame(self)
         self.f_skill['text'] = 'Skills'
         self.f_skill['padding'] = '10 10'
-        self.f_skill.grid(row=1, column=1, pady=(5, 0))
+        self.f_skill.grid(row=1, column=1, sticky="n", pady=(5,0))
 
         self.skill = []
 
